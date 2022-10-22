@@ -55,3 +55,17 @@ ul {
 .address.footer.link {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* PORTFOLIO.HTML */
+
+/* main */
+.filter.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.filter.button:hover,
+.filter.button:focus {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
