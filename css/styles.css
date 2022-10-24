@@ -30,7 +30,6 @@ ul {
 .link-portfolio,
 .link-contacts {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,7 +54,6 @@ ul {
 .address-mail,
 .address-tel {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -91,7 +89,6 @@ ul {
 
 .hero-title {
     color: #FFFFFF;
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -103,7 +100,6 @@ ul {
 .hero-button {
     color: #FFFFFF;
     background-color: var(--accent-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -113,9 +109,12 @@ ul {
     letter-spacing: 0.06em;
 }
 
+.hero-button {
+    cursor: pointer;
+}
+
 .feature-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -125,7 +124,6 @@ ul {
 
 .title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -135,7 +133,6 @@ ul {
 
 .member-team-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -144,8 +141,6 @@ ul {
 
 .feature-text {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -153,8 +148,6 @@ ul {
 
 .member-team-text {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -168,8 +161,6 @@ ul {
 
 .footer-link {
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.03em;
@@ -178,8 +169,6 @@ ul {
 .address-footer-mail,
 .address-footer-tel {
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.03em;
@@ -191,11 +180,11 @@ ul {
 .filter-button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .filter-button:hover,
@@ -206,7 +195,6 @@ ul {
 
 .filter-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;    
@@ -214,8 +202,7 @@ ul {
 }
 
 .filter-text {
-    font-family: 'Roboto';
-    font-weight: 400;
+    color: var(--primary-text-color)
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
